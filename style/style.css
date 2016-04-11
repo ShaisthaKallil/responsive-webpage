@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/*CSS STYLE SHEET*/
+/*General Layout*/
+
+/*
+Apply natural layout to all box
+*/
+html{
+	box-sizing:border-box;
+    font-size:62.5%;
+}
+*,*:before,*:after{
+	box-sizing:inherit
+}
+
+body{
+		padding:0;
+		margin:0;
+	font-size:2rem;
+	line-height:1.5;
+	color:#333;
+}
+
+.contentWrap{
+	max-width:960px;
+	width:90%;
+	margin:0 auto;
+	padding:60px 0;
+}
+
+.clear{
+	clear:both;
+}
+
+/*
+Removes default styling by browser
+*/
+h1,h2,h3,p,ul,form,input{
+		margin:0;
+		padding:0;
+}
+
+h1{
+	font-family:'Playfair Display', verdana, Open-Sans,sans-serif;
+	font-size:7rem;
+		padding-left:40px;
+		padding-top:50px;
+	color:beige;
+		
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+	
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+	
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in; 
+
+}
+
+h2{
+	font-size:2.5rem;
+		
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+	
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+	
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in; 
+}
+
+#wrapper h2{
+	    width:39%;
+		padding-left:110px;
+		float:left;
+	color:gold;
+	font-family:'Playfair Display', verdana, Open-Sans,sans-serif;
+	font-size:2.5rem;
+}
+
+ul{
+	list-style-type:none;
+}
+
+form{
+   width:45%;
+   float:left;
+   margin:0 auto 0 5px;
+   text-align:left;
+	
+}
+input[type="text"]{
+	padding:4px;
+	margin-top:6px;
+	font-size:18px;
+	width:300px;
+	height:40px;
+	border-radius:5px;
+	font-family:'Droid-Sans',verdana,open-sans,sans-serif;
+}
+input[type="button"]{
+	padding:6px 6px;
+	background-color:beige;
+	color:olive;
+	font-size:18px;
+	border-radius:3px;
+}
+
+/*
+HEADER
+*/
+header{
+	width:100%;
+	padding:5px 3px;
+	padding-top:0;
+	background-color:olive;
+	opacity:0.9;
+}
+#wrapper{
+	padding:40px;
+	background:url('../images/headerbg.jpg') no-repeat;
+	background-size:cover;
+	background-position:50%;
+}
+#wrapper img{
+	margin:-50px;
+	width:20%;
+}
+/*
+navigation
+*/
+nav #menu{
+position:relative;
+margin:auto;
+width:55px;
+height:57px;
+display:none;	
+}
+nav #menuIcon{
+	border:2px solid beige;
+	background:linear-gradient(olive,white,olive);
+	opacity:0.7;
+	border-radius:5px;
+	position:absolute;
+	left:2px;
+	top:1px;
+	padding:7px;
+	padding-bottom:2px;
+	box-shadow:2px 2px silver;
+}
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:2px;
+	display:block;
+}
+
+nav ul li{
+	display:inline-block;
+	margin:10px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	padding:8px 5px 15px 5px;
+	color:beige;
+	border:1px solid transparent;
+	font-size:2.4rem;
+}
+
+nav ul li a:hover{
+	border:1px solid brown;
+	border-radius:5px;
+	background-color:beige;
+	color:orange;
+}
+/*
+about
+*/
+.about p{
+	padding:15px;
+	
+}
+.about h2{
+	margin-top:-30px;
+	font-family:'Playfair Display', verdana, Open-Sans,sans-serif;
+	padding-left:17px;
+}
+
+/*
+recipes
+*/
+
+.featured{
+	width:70%;
+	max-width:600px;
+	float:left;
+	padding:10px 0;
+	
+}
+
+.variety{
+	width:30%;
+	max-width:320px;
+	float:right;
+	padding:30px;
+	
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;
+	
+}
+
+.featured h2{
+	margin-bottom:10px;
+}
+.featured h2,h3,.variety h3{
+   font-family:'Playfair Display', verdana, Open-Sans,sans-serif;
+}
+.variety h3{
+	background-color:olive;
+	color:beige;
+	padding-left:4px;
+}
+.featured p{
+	margin-bottom:10px;
+	font-size:18px;
+}
+.variety li a{
+	text-decoration:none;
+	color:brown;
+}
+.variety li a:hover{
+	text-decoration:underline;
+}
+
+/*
+footer
+*/
+footer p{
+	text-align:center;
+	font-size:12px;
+}

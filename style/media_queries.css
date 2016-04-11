@@ -1,0 +1,148 @@
+
+
+@media screen and (max-width:485px){
+	#wrapper {
+		background:none;
+		background-color:maroon;
+	}
+	#wrapper img{
+		padding:0;
+		margin-left:10%;
+		margin-top:1%;
+		float:left;
+		
+	
+	}
+	#wrapper h1{
+	width:70%;
+	padding:0;
+	position:relative;
+	top:0px;
+	float:right;
+	text-align:right;
+	border-bottom:1px solid white;
+	border-top:1px solid white;
+	border-radius:10px;
+	}
+	
+	#wrapper h2{
+		display:none;
+	}
+	
+   nav ul{
+	   width:25%;
+   }
+   
+   input[type="text"]{
+	   margin-left:0;
+	   width:100%;
+   }
+   input[type = "button"]{
+	   margin:3px;
+   }
+   
+   .variety{
+		width:100%;
+		float:none;
+		margin:0 auto;	
+	}
+   
+}
+@media screen and (max-width:660px){
+	html{
+		font-size:45%;
+	
+	}
+	nav ul{
+		display:none;
+		background-color:black;
+		opacity:0.7;
+		width:90%;
+		margin:auto;
+		border-radius:10px;
+	}
+	nav ul li{
+		display:block;
+		border-bottom:1px solid beige;
+	}
+	nav ul li a{
+		font-size:24px;
+		letter-spacing:2px;
+		
+	}
+	
+	nav ul li a:hover{
+		background-color:transparent;
+		border:none;
+	}
+	
+	nav #menu{
+		display:block;
+		margin-top:5px;
+	}
+    .featured{
+		width:100%;
+	}
+	.variety{
+		width:auto;
+		float:left;
+		margin-left:20%;		
+	}
+	.variety .item{
+	    width:100%;
+	    display:inline-block;
+		font-size:16px;
+	}
+	.variety .item h3{
+		font-size:18px;
+	}
+
+}
+@media screen and (max-width:775px){
+	#wrapper{
+		padding:10px;
+		
+	}
+	
+	#wrapper img{
+		width:35%;
+		margin-left:4px;
+		float:left;
+	}
+
+	.variety h3{
+		font-size:1.5rem;
+	}
+}
+
+
+@media screen and (max-width: 850px){
+	
+body{
+	font-size:18px;
+}
+#wrapper h1{
+	font-size:5rem;
+}
+ 
+}
+
+@media screen and (max-width: 950px){
+    h1{
+	   width:100%;
+	   text-align:center;
+	}
+	
+	#wrapper h2{
+		width:90%;
+		float:none;
+		text-align:center;
+	}
+	form{
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	
+	
+}
